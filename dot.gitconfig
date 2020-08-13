@@ -1,0 +1,9 @@
+[user]
+	name = jimi
+	email = jinfield@gmail.com
+[color]
+	ui = auto
+[branch]
+	autosetupmerge = always
+[push]
+	default = tracking
