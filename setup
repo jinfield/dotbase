@@ -1,0 +1,6 @@
+#!/bin/bash
+cd $(dirname $0)
+for file in dot.*; do
+  target=$(echo $file | sed -e 's/dot//')
+  install -m 640 $file ~/$target
+done
